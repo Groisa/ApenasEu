@@ -1,0 +1,113 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
+.containerTitleUp {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.title strong {
+    color: var(--global-title-color-second);
+}
+
+.title {
+    font-weight: var(--global-title-font-weight);
+    line-height: calc(var(--global-titleFontSize));
+    font-size: var(--global-titleFontSize);
+    color: var(--global-title-color);
+}
+
+.containerCenter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerPersona {
+
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    border-radius: 2;
+}
+
+.containerPersona img {
+    width: 100%;
+
+    height: auto;
+}
+
+.suportMessage {
+    width: 25%;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s;
+}
+
+.alignLeft {
+    align-items: flex-start !important;
+}
+
+.suportMessage p {
+    font-size: var(--global-text-font-size);
+}
+
+.expirenceTitle {
+    font-size: var(--global-text-font-subTitle);
+    text-align: end;
+}
+
+.marginTop {
+    margin-bottom: 180px;
+}
+
+.margin {
+    margin-bottom: 0px
+}
+
+@media(max-width:1024px) {
+
+    .containerPersona {
+        width: 600px ;
+    }
+}
+
+@media(max-width: 768px) {
+    .title {
+        font-size: var(--global-titlesFontSizeResponsive);
+        line-height: calc(var(--global-titlesFontSizeResponsive));
+    }
+
+    .containerCenter {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .containerPersona {
+        width: 100%;
+    }
+
+    .suportMessage {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .expirenceTitle {
+        text-align: end !important;
+    }
+
+    .left {
+        align-items: end;
+    }
+}
