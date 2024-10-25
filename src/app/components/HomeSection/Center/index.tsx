@@ -21,7 +21,7 @@ const Center: React.FC = () => {
     const { width } = useWindowSize()
     return (
         <article className={styles.containerCenter}>
-            <div className={`${styles.suportMessage} ${styles.alignLeft} ${width && width > 768 && scroll > 130 ? styles.marginTop : styles.margin}`}>
+            <div className={`${styles.suportMessage} ${styles.alignLeft} ${width && width > 768 && scroll > 130 ? styles.marginTop : ''}`}>
                 <Image src={Qot} alt='Imagem de persona gabriel rosa' />
 
                 <p>Os a experiência excepcional de Gabriel garante o sucesso do seu site. Altamente recomendado</p>
@@ -30,7 +30,7 @@ const Center: React.FC = () => {
                 <Image src={Persona} alt='Imagem de persona gabriel rosa' />
 
             </div>
-            <div className={`${styles.suportMessage} ${width && width > 768 && scroll > 130 ? styles.marginTop : styles.margin} ${width && width <= 768 && styles.left}`}>
+            <div className={`${styles.suportMessage} ${width && width > 768 && scroll > 130 ? styles.marginTop : ''} ${width && width <= 768 && styles.left}`}>
                 <Image src={Stars} alt='Imagem de persona gabriel rosa' />
                 <h2 className={styles.expirenceTitle}>{expirenceDate} Anos <p>experiência</p></h2>
             </div>
