@@ -42,6 +42,7 @@ p {
   margin: 0px;
   color: var(--global-color);
   padding: 0px;
+  font-size: var(--global-text-font-size);
 }
 
 a {

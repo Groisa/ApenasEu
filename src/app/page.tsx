@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import HomeSection from "./components/HomeSection";
 import ServicesComponents from "./components/ServicesComponents";
 import Expirence from "./components/Expirence";
+import HireMe from "./components/HireMe";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <HomeSection />
         <ServicesComponents />
         <Expirence />
+        <HireMe />
       </main>
       <footer className={styles.footer}>
 

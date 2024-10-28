@@ -31,7 +31,7 @@
 }
 
 .image {
-    width: 380px;
+    width: 320px;
     object-fit: contain;
     cursor: pointer;
     transition: all 0.3s;
