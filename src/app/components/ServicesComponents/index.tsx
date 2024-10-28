@@ -20,13 +20,13 @@ const ServicesComponents: React.FC = () => {
     useEffect(() => {
         console.log(scroll)
         const title = document.querySelectorAll('#imageData')
-        if (scroll > 800) {
+        if (scroll > 750) {
             if (title) {
                 title.forEach((values) => {
                     values.className = `${styles.image} animate__animated animate__bounceInLeft`
                 })
             }
-        }else {
+        } else {
             if (title) {
                 title.forEach((values) => {
                     values.className = `${styles.image} `
