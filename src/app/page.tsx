@@ -4,6 +4,7 @@ import HomeSection from "./components/HomeSection";
 import ServicesComponents from "./components/ServicesComponents";
 import Expirence from "./components/Expirence";
 import HireMe from "./components/HireMe";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <ServicesComponents />
         <Expirence />
         <HireMe />
+        <Projects />
       </main>
       <footer className={styles.footer}>
 
