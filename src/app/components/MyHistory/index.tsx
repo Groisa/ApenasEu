@@ -11,7 +11,7 @@ const MyHistory: React.FC = () => {
         <section className={styles.container}>
 
             <article className={styles.articleContainer}>
-                <h1>Minha História?</h1>
+                <h1>Minha História</h1>
                 <div className={styles.containerProject}>
                     <p>Sou Gabriel, desenvolvedor front-end com 4,5 anos de experiência em desenvolvimento web e mobile. Apaixonado por tecnologia desde cedo, tenho especialização em Next.js, React, Node.js, TypeScript e React Native. Minha experiência abrange programação orientada a objetos, bancos de dados e o desenvolvimento de aplicações de alta qualidade com experiências fluídas e intuitivas. Por meio de projetos pessoais, me mantenho atualizado com as tendências do setor e aprimoro minhas habilidades constantemente.</p>
 
