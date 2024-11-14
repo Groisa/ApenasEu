@@ -6,6 +6,7 @@ import styles from './styles.module.css'
 import Brain from '../../../assets/images/cerebro.png'
 import Image from 'next/image';
 import { useWindowScroll } from '@/app/customHook/useWindoSrool';
+import { redirectToWhatsApp } from '@/utils/RedirectWhatsapp';
 const Projects: React.FC = () => {
     const scroll = useWindowScroll()
 
@@ -27,7 +28,7 @@ const Projects: React.FC = () => {
                 <p>
                     Se você precisa de um software personalizado e que realmente funcione, estamos prontos para ajudar!
                 </p>
-                <button>Pedir Orçamento</button>
+                <button onClick={redirectToWhatsApp}>Pedir Orçamento</button>
                 <Image src={Brain} alt='Brain' className={styles.imageBrain} />
             </article>
         </section>

@@ -1,8 +1,10 @@
+'use client'
 import React from 'react';
 import styles from './styles.module.css'
 import Image from 'next/image';
 // import { Container } from './styles';
 import ImageLogo from '@/assets/images/apenasG.png'
+import { redirectToWhatsApp } from '@/utils/RedirectWhatsapp';
 const HireMe: React.FC = () => {
     return (
         <section className={styles.container}>
@@ -22,7 +24,7 @@ const HireMe: React.FC = () => {
                         <p><strong>Projetos que participei</strong></p>
                     </div>
                 </div>
-                <a className={styles.hrefRedirect}>
+                <a className={styles.hrefRedirect} onClick={redirectToWhatsApp}>
                     Contrata-me
                 </a>
             </article>

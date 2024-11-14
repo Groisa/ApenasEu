@@ -5,6 +5,7 @@ import ServicesComponents from "./components/ServicesComponents";
 import Expirence from "./components/Expirence";
 import HireMe from "./components/HireMe";
 import Projects from "./components/Projects";
+import MyHistory from "./components/MyHistory";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <Expirence />
         <HireMe />
         <Projects />
+        <MyHistory />
       </main>
       <footer className={styles.footer}>
 
